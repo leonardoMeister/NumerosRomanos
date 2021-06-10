@@ -33,10 +33,12 @@ namespace ConsoleApp1
 
         public void NumerosRomanosParaArabicos(string numeroRomano)
         {
-            numeroRomano = Normalizar(numeroRomano);
+            numeroRomano = ArrumarTraduçãoDeCaracteres(numeroRomano);
             NumeroRomano = numeroRomano.ToLower();
             NumeroArabico = Converter(numeroRomano.ToLower());
         }
+
+
         private int Converter(string numeroRomano)
         {
 
