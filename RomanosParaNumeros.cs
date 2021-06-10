@@ -70,7 +70,7 @@ namespace ConsoleApp1
             return saida;
         }
 
-        private string Normalizar(string str)
+        private string ArrumarTraduçãoDeCaracteres(string str)
         {
             str = str.ToUpper();
 
