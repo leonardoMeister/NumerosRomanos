@@ -77,7 +77,7 @@ namespace ConsoleApp1
             str = str.Replace("Ī", "q");
             str = str.Replace("V̄", "w");
             str = str.Replace("X̄", "e");
-
+             
             return str;
         }
 
