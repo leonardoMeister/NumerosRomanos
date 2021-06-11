@@ -52,6 +52,7 @@
     <Compile Include="TesteParaRomanos.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TesteParaArabico.cs" />
+    <Compile Include="TesteSimplesArabico.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

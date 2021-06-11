@@ -10,10 +10,14 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            string aux = "V̄";
-            RomanosParaNumeros aux1 = new RomanosParaNumeros();
 
-            aux1.NumerosRomanosParaArabicos(aux);
+            ConversorRomanoSimples aux = new ConversorRomanoSimples(1234);
+
+            Console.WriteLine(aux.Resultado);
+
+            ConversorArabicoSimples romano = new ConversorArabicoSimples("IV");
+
+            Console.WriteLine(romano.Resultado);
         }
     }
 }
