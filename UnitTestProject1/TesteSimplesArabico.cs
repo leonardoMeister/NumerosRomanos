@@ -31,14 +31,7 @@ namespace UnitTestProject1
             Assert.AreEqual(3, aux.Resultado);
         }
 
-        [TestMethod]
-        public void DeveRetornar4()
-        {
-            ConversorArabicoSimples aux = new ConversorArabicoSimples("IV");
-
-            Assert.AreEqual(4, aux.Resultado);
-        }
-
+ 
         [TestMethod]
         public void DeveRetornar5()
         {
@@ -93,21 +86,6 @@ namespace UnitTestProject1
             ConversorArabicoSimples aux = new ConversorArabicoSimples("M");
 
             Assert.AreEqual(1000, aux.Resultado);
-        }
-        [TestMethod]
-        public void DeveRetornar5000()
-        {
-            ConversorArabicoSimples aux = new ConversorArabicoSimples("v");
-
-            Assert.AreEqual(5000, aux.Resultado);
-        }
-
-        [TestMethod]
-        public void DeveRetornar10000()
-        {
-            ConversorArabicoSimples aux = new ConversorArabicoSimples("x");
-
-            Assert.AreEqual(10000, aux.Resultado);
         }
     }
 }
