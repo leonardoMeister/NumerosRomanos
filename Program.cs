@@ -11,7 +11,7 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
 
-            ConversorRomanoSimples aux = new ConversorRomanoSimples(1234);
+            ConversorRomanoSimples aux = new ConversorRomanoSimples(1);
 
             Console.WriteLine(aux.Resultado);
 

@@ -63,7 +63,7 @@ namespace ConsoleApp1
                 }
                 else if (x < 10 && x > 0)
                 {
-                    switch (x / 10)
+                    switch (x )
                     {
                         case 1: Resultado += "I"; break;
                         case 2: Resultado += "II"; break;
